@@ -1,0 +1,59 @@
+.notification-container {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    padding: 20px 0px 20px 0px;
+}
+
+.notif-content {
+    max-width: 670px;
+    display: flex;
+    margin: 0px auto;
+}
+
+    .notif-paragraph {
+        max-width: 570px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .btn-got-it {
+        width: 80px;
+        height: 40.02px;
+        margin-top: 3px;
+    }
+
+@media screen and (max-width: 480px) {
+    .notification-container {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .nct-sm {
+        width: 100%;
+        padding-left: 10px;
+        display: block;
+    }
+
+        .bgi-sm {
+            margin-top: 8px;
+            width: 70px;
+            height: 37px;
+        }
+}
+
+@media screen and (min-width: 480px) and (max-width: 960px) {
+    .notification-container {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .nct-sm {
+        width: 100%;
+        display: flex;
+    }
+
+        .bgi-sm {
+            width: 70px;
+            height: 37px;
+        }
+}
