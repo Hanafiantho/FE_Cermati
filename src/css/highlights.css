@@ -1,0 +1,30 @@
+.highlights-container {
+    background-color:  #e5e5e5;
+    padding: 65px 0px 0px 0px;
+    height: 500px;
+    width: 100%
+}
+
+    .how-help-you {
+        font-size: 35px;
+    }
+
+    .help-things {
+        margin: 0px auto;
+        width: 750px;
+        font-size: 20px;
+        margin-top: 10px;
+        color: rgb(88, 88, 88);
+    }
+
+    .hightlights-content {
+        margin: 0px auto;
+        margin-top: 50px;
+        width: 100%;
+        display: inline-block;
+    }
+
+        .container-box {
+            border: 1px solid grey;
+            width: 350px;
+        }
