@@ -6,7 +6,9 @@ class Footer extends React.Component {
     render() {
         return (
             <div className='footer-container text-center'>
-                <div>© 2018 Yuan Monos. All rights reserved.</div>
+                <div className='footer-content'>
+                    © 2018 Yuan Monos. All rights reserved.
+                </div>
             </div>
         )
     }
